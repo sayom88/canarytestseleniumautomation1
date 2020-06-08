@@ -39,7 +39,7 @@ public class BrowserTest {
 	
 	@SuppressWarnings("deprecation")
 	@Test
-	public void testGooglePage()
+	public void testPage()
 	{
 		
 		/*
