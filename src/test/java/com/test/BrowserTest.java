@@ -56,8 +56,11 @@ public class BrowserTest {
 		
 		
 		// OPENSHIFT-CANARY TESTING(MANUAL)
-				 driver.get("https://app-main-s-canarydeployment1.apps.us-east-2.starter.openshift-online.com/");
-				 
+		
+		String url="https://app-main-s-sayoghos-in.dc-ig-lib-ga-1589529604-f72ef11f3ab089a8c677044eb28292cd-0000.au-syd.containers.appdomain.cloud";
+		
+		//driver.get("https://app-main-s-canarydeployment1.apps.us-east-2.starter.openshift-online.com/");
+		driver.get(url);
 				     String exp_text = "Canary-Version";
 			         WebElement exp_value = driver.findElement(By.xpath(".//html[1]/body[1]"));
 			         String screen_text = exp_value.getText();
